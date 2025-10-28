@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "index.php": {
+      "runtime": "@vercel/php"
+    }
+  },
+  "rewrites": [
+    { "source": "/style.css", "destination": "/style.css" },
+    { "source": "/(.*)", "destination": "/index.php" }
+  ]
+}
