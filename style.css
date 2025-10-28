@@ -37,6 +37,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 30px rgba(88, 166, 255, 0.1);
     animation: fadeIn 1s ease-in-out;
+    overflow: hidden; /* Glitch effect ke container er moddhe rakhar jonno */
 }
 
 @keyframes fadeIn {
@@ -55,6 +56,7 @@ body {
     font-size: 1rem;
     color: var(--secondary-color);
     margin: 5px 0 0;
+    text-shadow: 0 0 5px rgba(88, 166, 255, 0.5);
 }
 
 .glitch {
@@ -64,6 +66,7 @@ body {
     position: relative;
     margin: 0;
     animation: glitch-anim 2.5s infinite linear alternate-reverse;
+    text-shadow: 0 0 10px rgba(57, 211, 83, 0.5);
 }
 /* Glitch Animation */
 @keyframes glitch-anim {
@@ -81,6 +84,7 @@ body {
     border: 1px solid var(--border-color);
     border-radius: 5px;
     background: #000000;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
 }
 .terminal-header {
     background: var(--border-color);
